@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Réalisations - ENERGIES SANS FRONTIERES</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="green">ENERGIES </span><span class="blue">SANS </span><span class="orange">FRONTIERES</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="realisations.html" class="active">Réalisations</a></li>
+                    <li><a href="admin.html" class="admin-link"><i class="fas fa-lock"></i> Admin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="realisations-hero">
+        <div class="container">
+            <h1>Nos <span class="green">Réalisations</span> <span class="blue">Récentes</span></h1>
+        </div>
+    </section>
+
+    <section class="realisations-content">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="environnement">Environnement</button>
+                <button class="filter-btn" data-filter="routes">Routes</button>
+                <button class="filter-btn" data-filter="ponts">Ponts</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Les réalisations seront chargées ici par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Même footer que index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
